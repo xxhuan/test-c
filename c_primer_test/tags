@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAX_COLS	rearrang.c	14;"	d	file:
+MAX_INPUT	rearrang.c	15;"	d	file:
+main	rearrang.c	/^int main(void)$/;"	f
+read_column_numbers	rearrang.c	/^int read_column_numbers( int columns[], int max )$/;"	f
+rearrange	rearrang.c	/^void rearrange( char *output, char const *input, int n_columns, int const columns[] )$/;"	f
