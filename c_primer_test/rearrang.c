@@ -115,16 +115,3 @@ void rearrange( char *output, char const *input, int n_columns, int const column
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
