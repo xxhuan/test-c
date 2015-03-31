@@ -92,7 +92,8 @@ void rearrange( char *output, char const *input, int n_columns, int const column
 			nchars = MAX_INPUT - output_col - 1;
 
 		/*复制相关数据*/
-		strncpy( output + output_col, input + columns[col], nchars );
+		strcpy( output + output_col, input + columns[col] );
+		//strncpy( output + output_col, input + columns[col], nchars );
 		output_col += nchars;
 	}
 	output[output_col] = '\0';
