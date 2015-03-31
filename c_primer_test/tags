@@ -6,8 +6,11 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 MAX_COLS	chap_01/rearrang.c	14;"	d	file:
 MAX_INPUT	chap_01/rearrang.c	15;"	d	file:
+MAX_INPUT_LINE	chap_01/q_182.c	5;"	d	file:
+MAX_INPUT_SIZE	chap_01/q_182.c	4;"	d	file:
 MAX_SIZE	chap_01/q_1.7.5.c	4;"	d	file:
 main	chap_01/q_1.7.5.c	/^int main()$/;"	f
+main	chap_01/q_182.c	/^int main ()$/;"	f
 main	chap_01/rearrang.c	/^int main(void)$/;"	f
 read_column_numbers	chap_01/rearrang.c	/^int read_column_numbers( int columns[], int max )$/;"	f
 rearrange	chap_01/rearrang.c	/^void rearrange( char *output, char const *input, int n_columns, int const columns[] )$/;"	f
