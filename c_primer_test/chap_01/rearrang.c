@@ -19,7 +19,7 @@ void rearrange( char *output, char const *input, int n_columns, int const column
 
 /*逻辑上将statements注释掉*/
 #if 0
-statements
+	statements
 #endif
 
 
