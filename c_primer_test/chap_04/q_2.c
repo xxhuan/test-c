@@ -8,7 +8,8 @@ int main()
 	int num;
 	int div;
 
-	for(i=1;i<=100;i++)
+	printf("[1]\n[2]\n");
+	for(i=3;i<=100;i++)
 	{
 		for(div=2;div<i;div++)
 		{
@@ -22,3 +23,4 @@ int main()
 
 	return 0;
 }
+
