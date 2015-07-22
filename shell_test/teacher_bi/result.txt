@@ -1,0 +1,1 @@
+lvcreate -L /rimstbs01 -n  2048 vg01 x

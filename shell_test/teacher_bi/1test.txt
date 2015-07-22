@@ -1,0 +1,21 @@
+LV Name                     /dev/vg01/redo02_1
+LV Status                   available/syncd           
+LV Size (Mbytes)            256             
+Current LE                  64        
+Allocated PE                64          
+Used PV                     1  
+
+LV Name                     /dev/vg01/SHODSBDATATBS0101
+LV Status                   available/syncd           
+LV Size (Mbytes)            20480           
+Current LE                  5120      
+Allocated PE                5120        
+Used PV                     2       
+
+LV Name                     /dev/vg01/SHODSBDATATBS0102
+LV Status                   available/syncd           
+LV Size (Mbytes)            20481           
+Current LE                  5120      
+Allocated PE                5120        
+Used PV                     2       
+
