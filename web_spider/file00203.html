@@ -1,0 +1,111 @@
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var webapp = 'http://tuyang.bokee.com';
+//var webapp = 'http://tuyang.bokee.com';
+var BOKEE_SSO = "http://sso.bokee.com";
+//var BOKEE_SSO = "http://www.bokee.com:8080/bokee_sso";
+var config = {};
+//config.basePath = 'http://tuyang.bokee.com';
+//config.basePath = 'http://tuyang.bokee.com';
+config.basePath = 'http://tuyang.bokee.com';
+
+/**JS 常量配置，命名空间为：TibetConfig */
+var TibetConfig = {};
+	TibetConfig.BASEPATH   = "http://tuyang.bokee.com";
+	TibetConfig.PHONEPATH   = "http://v.bokee.com";
+	//TibetConfig.BASEPATH   = "http://tuyang.bokee.com";
+	TibetConfig.SSO_USER   = "";
+	TibetConfig.SSO_USER_UID = "";
+	TibetConfig.BOKEE_SSO  = "http://sso.bokee.com";
+	
+	TibetConfig.AJAXPATH   = "http://tuyang.bokee.com";
+	TibetConfig.CSSIMGPATH = "http://tuyang.bokee.com";
+	TibetConfig.IMGPATH = "http://images.bokee.com/";
+	TibetConfig.JSROOTSRC  = "http://tuyang.bokee.com/minScript";
+	TibetConfig.tjUrl = "http://home.bokee.com/home.php";
+
+	TibetConfig.RPATH = "http://hy.bokee.com";
+	TibetConfig.UGPATH = "http://usersubgroup.bokee.com";
+	TibetConfig.NOTICEPATH = "http://sx.bokee.com";
+	//TibetConfig.CSSIMGPATH = "http://tuyang.bokee.com";
+	//退出登录
+	function logout(){
+		//window.location.href = "http://tuyang.bokee.com/logout/logout.do?from="+window.location.href;
+		document.getElementById("theUrl").value = window.location.href;
+		document.getElementById("theLogout").action = webapp + "/logout/logout.do";
+		document.getElementById("theLogout").submit();
+	}
+</script>
+<link href="http://tuyang.bokee.com/skins/css/top.css"  rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="http://tuyang.bokee.com/minScript/others/paging.js"></script>
+
+
+
+
+
+<!DOCTYPE html>
+<head>
+<!-- Basic Page Needs
+================================================== -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="博客中国" />
+<title>登录</title>
+
+<!-- Mobile Specific Metas
+================================================== -->
+<meta name="viewport"
+	content="width=device-width, user-scalable=no, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+
+<!-- CSS
+================================================== -->
+<link href="http://tuyang.bokee.com/skins/css/phone/base.css" rel="stylesheet" type="text/css" />
+<link href="http://tuyang.bokee.com/skins/css/phone/style.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Java Script
+================================================== -->
+<script type="text/javascript" src="http://tuyang.bokee.com/minScript/phone/phoneLogin.js"></script>
+</head>
+<body>
+	<input type="hidden" id="url" value="http://i.bokee.com/v1.php/blog/view/uname/zhoulifa/bid/5619624"/>
+	<div class="login">
+		<div class="tp">
+			<span>登录</span>
+
+			<span id="alert" style="color:red;font-size:12px;float:right"></span>
+		</div>
+		<div class="cnt">
+			<div>
+				<label>用户名：</label><input type="text" value="" id="userName"/>
+			</div>
+			<div>
+				<label>密&#12288;码：</label><input type="password" value="" id="password"/>
+			</div>
+		</div>
+		<div class="bt">
+			<input id="dl" class="dl" type="button" value="登录"
+				onMouseOut="this.style.backgroundColor='#39a1e4'"
+				onClick="dlfunction()"/> <input class="zc"
+				type="button" value="注册"
+				onMouseOut="this.style.backgroundColor='#525252'"
+				onClick="this.style.backgroundColor='#656565';window.location.href = 'http://uhome.blogchina.com/quickRegistration.action'" />
+		</div>
+	</div>
+	     <script type="text/javascript">
+				var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+				document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%
